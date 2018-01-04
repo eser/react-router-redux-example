@@ -1,0 +1,34 @@
+.Layout {
+  text-align: center;
+}
+
+.Layout-logo {
+  animation: Layout-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Layout-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Layout-title {
+  font-size: 1.5em;
+}
+
+.Layout-nav a {
+  margin: 0 10px;
+  color: silver;
+  display: inline-block;
+}
+
+.Layout-intro {
+  font-size: large;
+}
+
+@keyframes Layout-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
